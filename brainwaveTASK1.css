@@ -1,0 +1,588 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+#top {
+    min-height: 31vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(https://images.unsplash.com/photo-1633439708933-0c7f5ec0af96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1898&q=80); */
+    /* background-color: bisque; */
+    background-image: url(https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
+}
+
+#top-nav-center h4:hover {
+    cursor: pointer;
+    font-weight: 900;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    padding: 25px;
+    color: #fff;
+}
+
+#top-nav-left h2 {
+    margin-left: -10px;
+    /* position: fixed; */
+    margin-top: 8px;
+    font-family: updock;
+    font-size: 50px;
+    font-weight: 500;
+    transform: rotate(350deg);
+
+}
+
+#top-nav-center {
+    width: 34%;
+    display: flex;
+    /* margin-right: 20px; */
+    font-family: gilroy light;
+
+    font-size: 17px;
+    justify-content: space-between;
+
+}
+
+#top-nav-center h4 {
+    font-weight: 400;
+}
+
+#top-nav-center h4:hover {
+    cursor: pointer;
+    font-weight: 900;
+}
+
+#top-nav-right {
+    display: flex;
+    /* position: absolute; */
+    font-family: gilroy;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    font-size: 18px;
+    justify-content: space-between;
+    /* margin-top: 14px; */
+}
+
+#ayan {
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 6%;
+}
+
+#ayan h2 {
+    position: absolute;
+    font-size: 34px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#ayan h6 {
+    position: absolute;
+    font-size: 14px;
+    font-family: Helvetica;
+    /* text-transform: uppercase; */
+    color: #fff;
+    font-weight: 500;
+    margin-top: 17%;
+    margin-left: 20%;
+    letter-spacing: 1px;
+}
+
+#center {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 70%;
+}
+
+#bread {
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    /* background-color: aqua; */
+}
+
+#bread1 {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    margin-top: 60px;
+    /* background-color: brown; */
+    background-position: center;
+    background-size: 90%;
+
+    background-image: url(bread1.png);
+}
+
+#bread1:hover {
+    transform: scale(130%);
+}
+
+#bread-text {
+
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+
+
+
+}
+
+#bread-text h2 {
+    font-weight: 200;
+    font-family: updock;
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(160, 160, 80);
+}
+
+#bread-text h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -7px;
+}
+
+#bread-text h5 {
+    font-family: gilroy-light;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+button {
+    margin-top: 20px;
+    font-family: gilroy;
+    cursor: pointer;
+    width: 127px;
+    height: 42px;
+    border: none;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 3px black;
+}
+
+#family {
+    margin-top: 289px;
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: rgb(255, 255, 255)
+}
+
+
+#family-text {
+
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-right: 50%;
+    /* background-color: aqua; */
+    padding-left: 160px;
+
+
+}
+
+#family-text h2 {
+    /* align-content: flex-end */
+    margin-left: 66%;
+    font-weight: 200;
+    font-family: updock;
+    font-size: 48px;
+    margin-top: 38px;
+    color: rgb(160, 160, 80);
+}
+
+#family-text h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -7px;
+}
+
+#family-text h5 {
+    margin-left: 34%;
+    font-family: gilroy-light;
+    font-weight: 300;
+    margin-top: 18px;
+    /* align-content: flex-end; */
+    align-items: center;
+
+}
+
+#family-button button {
+    position: absolute;
+    /* margin-left: 50%; */
+    right: 0;
+    margin-top: 20px;
+    font-family: gilroy;
+    cursor: pointer;
+    width: 127px;
+    height: 42px;
+    border: none;
+
+    /* padding: 12px;+ */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 3px black;
+}
+
+#family-pic {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    /* background-color: rgb(255, 255, 255); */
+    background-position: 63px;
+    background-size: cover;
+
+    background-image: url(family.png);
+
+}
+
+#family-pic:hover {
+    transform: scale(110%);
+
+
+}
+
+#tradition {
+
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 40%;
+    /* background-color: red; */
+}
+
+#traditional-pic {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    background-position: center -90px;
+    background-size: cover 7px;
+
+    background-image: url(bake.png);
+}
+
+#traditional-pic:hover {
+    transform: scale(160%);
+
+
+}
+
+#traditional-text {
+
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+
+
+
+}
+
+#traditional-text h2 {
+    font-weight: 200;
+    font-family: updock;
+    font-size: 47px;
+    margin-top: 40px;
+    color: rgb(160, 160, 80);
+}
+
+#traditional-text h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -7px;
+}
+
+#traditional-text h5 {
+    font-family: gilroy-light;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+#traditinal-button button {
+    margin-top: 20px;
+    font-family: gilroy;
+    cursor: pointer;
+    width: 127px;
+    height: 42px;
+    border: none;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 3px black;
+}
+
+#bottom2 {
+    height: 42%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1902&q=80);
+    bottom: -97%;
+    /* opacity: -1; */
+
+    color: #fff;
+}
+
+#bot2-text {
+    width: 60%;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+}
+
+#bot2-text h4 {
+    margin-left: 44%;
+    margin-top: 6%;
+    font-size: 15px;
+    font-family: gilroy-light;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#bot2-text h1 {
+    margin-left: 34%;
+    margin-top: 1%;
+    font-size: 24px;
+    font-family: gilroy-light;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#bot2-text h2 {
+    margin-left: 30%;
+
+    font-size: 27px;
+    font-family: gilroy-light;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#bot2-text h5 {
+    margin-left: 27%;
+    margin-top: 2%;
+    font-size: 10px;
+    font-family: gilroy-light;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#bot2-text h6 {
+    margin-left: 43%;
+
+    font-size: 10px;
+    font-family: gilroy-light;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#bot2-text button {
+    margin-left: 43%;
+
+    font-size: 10px;
+    font-family: gilroy-light;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+#bot2-text button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 3px black;
+}
+
+#bottom {
+    height: 32%;
+    width: 100%;
+    bottom: -129%;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+
+#bot1 {
+    /* background-color: rgb(116, 174, 224); */
+    height: 100%;
+    width: 24%;
+
+}
+
+#bot1 h1 {
+    margin-left: 10px;
+    font-family: updock;
+    font-size: 50px;
+    font-weight: 500;
+    transform: rotate(350deg);
+}
+
+#bot1 h5 {
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: gilroy light;
+    margin-top: 25px;
+
+}
+
+#bot1 h4 {
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: gilroy light;
+    margin-top: 18%;
+    text-decoration: underline;
+
+}
+
+#bot2 {
+    /* background-color: rgb(8, 40, 68); */
+    height: 100%;
+    width: 30%;
+}
+
+#bot2 h2 {
+    font-size: 15px;
+    margin-left: 30%;
+    font-family: halvetica;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+#bot2 #logo {
+    font-size: 20px;
+    margin-left: 26px;
+    margin-top: 50%;
+    /* display: flex; */
+    color: blue;
+
+}
+
+#bot2 h3 {
+    font-size: 15px;
+    font-family: gill sans;
+    font-weight: 200;
+    margin-top: 5%;
+}
+
+#bot2 h4 {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: gilroy light;
+    margin-top: 8%;
+
+
+}
+
+#bot3 {
+    /* background-color: rgb(4, 17, 29); */
+    height: 100%;
+    width: 20%;
+}
+
+#bot3 h2 {
+    font-size: 12px;
+    margin-left: 30%;
+    font-family: gilroy light;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+#bot4 {
+    /* background-color: rgb(14, 136, 121); */
+    height: 100%;
+    opacity: 5;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1536534028025-68598ea8af44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1944&q=80);
+}
+
+#bot4 h2 {
+
+    font-size: 14px;
+    margin-left: 43%;
+    font-family: gilroy light;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+
+}
